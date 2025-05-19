@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+.main {
+  min-height: 100vh;
+  position:fixed;
+  width: 100%;
+ background-color: black; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.main .image-container {
+  padding: 5px;
+}
+
+.main .image-container .image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  right: 0.5%;
+  top: 79%;
+  overflow: hidden;
+  
+  
+}
+
+.main .image-container .image img {
+  width: 300px;
+  align-items: center;
+  
+}
+
+
+
+
+
+.main .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:20vw;
+  height: 50px;
+  border-radius: 20px;
+  background: rgb(202 253 255 / 50%);
+  border: 3px solid #fff;
+	box-shadow: 0 0 200px #01b4f9, 0 0 20px #01b4f9, 0 0 30px #01b4f9;
+  
+}
+
+.main .input .talk {
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.main .input .talk i {
+  font-size: 20px;
+  color: #aed0d0;
+}
+
+.main .input .content{
+color: #e70505;
+  font-size: 15px;
+  margin-right: 20px;
+
+}
+.main .img img{
+  width: 400px;
+  
+  height: 500px;
+  position: absolute;
+  margin-right: 100px;
+  align-items: start;
+  right: 750px;
+  bottom: 1%;
+  
+}
+
+
+/* Removed empty ruleset for .image-container .image img */
+
+#voiceSelect {
+    color: red;
+    background-color: black;
+    position: absolute;
+    top: 85%;
+    left: 7%;
+}
+
+#spokenText {
+    color: red;
+    background-color: black;
+    font-weight: bold;
+    font-family: cursive;
+    position: absolute;
+    top: 450px;
+    right: 80px;
+    border: none;
+}
+
+h1.spidy-title {
+    color: #f5101c;
+    margin-bottom: 10%;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 0 0 200px #fc0c18, 0 0 20px #f70404e8, 0 0 30px #e20808;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.spidy-description {
+    color: #f10ce6;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 0 0 200px #f50aba, 0 0 20px #fa0cc6, 0 0 30px #fa08a9;
+}
+
+.img img {
+    width: 10%;
+    height: 100%;
+}
+
+.img img:nth-child(1) {
+    left: 93%;
+    top: 1%;
+}
+
+.img img:nth-child(2) {
+    right: 85%;
+    top: 1%;
+}
+
+.img img:nth-child(3) {
+    width: 20%;
+    height: 20%;
+    left: 69%;
+    top: 25%;
+    border-radius: 30%;
+    box-shadow: 0 0 200px #fa0318, 0 0 20px #ee042b, 0 0 30px #f80643;
+}
+
+.img img:nth-child(4) {
+    width: 20%;
+    height: auto;
+    left: 38%;
+    position: absolute;
+    top: 8%;
+    border-radius: 60%;
+}
+
+#textToSpeak {
+    color: rgb(245, 10, 10);
+    background-color: rgb(232, 236, 236);
+    font-weight: bold;
+    box-shadow: inset;
+}
+
+.clickToSpeak {
+    color: rgba(255, 23, 34, 0.877);
+    font-weight: bold;
+    background-color: rgba(239, 241, 241, 0.596);
+    box-shadow: 0 0 200px #01b4f9, 0 0 20px #01b4f9, 0 0 30px #01b4f9;
+    border-radius: 20px;
+    position: absolute;
+    top: 430px;
+    left: 650px;
+}

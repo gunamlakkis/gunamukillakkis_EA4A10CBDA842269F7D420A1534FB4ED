@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakkis- Virtual Assistant</title>
+
+    <!---- CSS Linkage ------>
+    <link rel="stylesheet" href="style.css">
+
+    <!---- Font Awesome Cdn Linkage ------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    
+    <section class="main">
+        <div class="image-container">
+            <div class="image">
+                <img src="gif.gif" alt="image">
+            </div>
+            <div class="12">
+                <div id="voiceSelectContainer">
+                    <select id="voiceSelect"></select>
+                </div>
+            </div>
+        </div>
+        
+
+        <div id="spokenTextContainer">          
+            <textarea id="spokenText" rows="10" cols="50" readonly></textarea>
+        </div>
+
+        <b>
+            <h1 class="spidy-title"> S P I D Y 🕸️ </h1>
+        </b>
+        <p class="spidy-description">I'm a Virtual Assistant how can i help you</p>
+
+        <div class="img">
+            <img src="gif3.gif" alt=""style="width: 10%; ; left: 93%;  top: 1%; height: 100%;  ">
+            <img src="gif7.gif" alt=""style="width: 10%; right: 85%; top: 1%; height: 100%;" >
+            <img src="gif5.gif" alt="">
+            <img src="gif4.gif" alt="">
+        </div>
+
+        <div class="input">
+            <button class="talk"><i class="fas fa-microphone-alt"></i></button>
+            <h1 class="content"> 
+                <input type="text" id="textToSpeak" placeholder="Enter text to speak here">
+            </h1>
+        </div>
+        
+       
+            
+        </div>
+        <div>
+            <button class="talk"></button>
+            <button class="clickToSpeak">On Search</button>
+        </div>
+    </section>
+    
+    <!------- Js Linkage --------->
+    <script src="app.js"></script>
+</body>
+
+</html>
